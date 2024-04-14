@@ -3,6 +3,7 @@ import Box from '@mui/material/Box';
 import image1 from "../images/image1.jpg";
 import { Button, Typography } from "@mui/material";
 import { GifBoxTwoTone } from "@mui/icons-material";
+import Footer from "../components/Footer";
 
 const LandingPage = () =>{
     return(
@@ -34,6 +35,7 @@ const LandingPage = () =>{
       <img src={image1} alt="feeding the hungry" style={{ width: "500px", height: "500px" }}/>
     </Box>
     </Box>
+    <Footer/>
   
         </>
         
