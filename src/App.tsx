@@ -6,10 +6,13 @@ import CustomThemeProvider from "../src/theme/Theme";
 import { Box } from '@mui/system';
 import Centered from "./components/Centered";
 import Contact from "./pages/Contact";
+import ResponsiveAppBar from './components/ResponsiveAppBar';
+
 function App() {
   return (
       <CustomThemeProvider>
-        <Centered>
+        <ResponsiveAppBar/>
+        {/* <Centered>
           <div>
       <Button variant = "contained"
       sx = {{
@@ -18,7 +21,7 @@ function App() {
       >Hello World</Button>
       <Contact/>
       </div>
-      </Centered>
+      </Centered> */}
 
       </CustomThemeProvider>
       
