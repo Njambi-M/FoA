@@ -13,28 +13,31 @@ function Footer() {
     };
   return (
     <AppBar position="static" color="primary">
-            <Box display="flex" alignItems="centre" flexDirection={'column'}>
+            <Box display="flex" alignItems="centre" flexDirection={'column'} sx={{ml:10}} >
                 <Box marginBottom={5} marginTop={5} alignItems="center">
                     <Typography variant="body1" color="inherit">
                         © FOA 2024
                     </Typography>
-                <Box display="flex"> 
+                <Box display="flex" sx={{mt:10}}> 
+                <Typography sx={{mt:1, mr:3}}>
+                        Send us a message
+                    </Typography>
                 <form onSubmit={handleSubmit} style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
                     <TextField
                         type="email"
                         label="Your Email"
-                        id ="outlined-basic"
-                        variant="outlined"
+                        id="filled-basic"
+                        variant="filled"
                         size="small"
                         margin="dense"
                         required
-                    />
+                        color="white"                    />
                     <TextField
                         label="Message"
-                        id ="outlined-basic"
+                        id="filled-basic"
+                        variant="filled"
                         multiline
                         rows={1}
-                        variant="outlined"
                         size="small"
                         margin="dense"
                         required
@@ -46,7 +49,10 @@ function Footer() {
 
                 </Box>
                 
-                <Box>
+                <Box sx={{mt:5}}>
+                    <Typography sx={{mt:1}}>
+                        Follow us on:
+                    </Typography>
                     <IconButton color="inherit" href="#">
                         <InstagramIcon />
                     </IconButton>
