@@ -12,7 +12,7 @@ const LandingPage = () =>{
         <Box display="flex" alignItems="center">
         <Box display="flex" justifyContent="space-between" alignItems="left" flexDirection="column">
             <Typography variant = "h2" align = "center" color = "primary" mt = {5}>
-                FOA - Food for all
+                FoA - Food for all
             </Typography>
             <Typography variant = "h4" color = "primary" mt = {5} marginLeft={3}>
          Provide food to the less fortunate and bring a smile to someone's face.
@@ -35,6 +35,7 @@ const LandingPage = () =>{
       <img src={image1} alt="feeding the hungry" style={{ width: "500px", height: "500px" }}/>
     </Box>
     </Box>
+
     <Footer/>
   
         </>
