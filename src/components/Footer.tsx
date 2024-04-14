@@ -31,7 +31,9 @@ function Footer() {
                         size="small"
                         margin="dense"
                         required
-                        color="white"                    />
+                        color='secondary'
+                        sx={{mr: 3}}
+                    />
                     <TextField
                         label="Message"
                         id="filled-basic"
@@ -41,6 +43,7 @@ function Footer() {
                         size="small"
                         margin="dense"
                         required
+                        color='secondary'
                     />
                     <Button type="submit" variant="contained" color="secondary" size="small" style={{ marginLeft: '10px' }}>
                         Send
