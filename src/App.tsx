@@ -7,11 +7,11 @@ import { Box } from '@mui/system';
 import Centered from "./components/Centered";
 import Contact from "./pages/Contact";
 import ResponsiveAppBar from './components/ResponsiveAppBar';
-
+import LandingPage from './pages/LandingPage';
 function App() {
   return (
       <CustomThemeProvider>
-        <ResponsiveAppBar/>
+        <LandingPage/>
         {/* <Centered>
           <div>
       <Button variant = "contained"
